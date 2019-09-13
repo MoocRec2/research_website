@@ -1,0 +1,42 @@
+/* Fonts */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-special-font {
+    font-family: 'Lobster', cursive;
+}
+
+/* Set div backgrounds for each segment */
+#home {
+    /*background: url("../img/home-bg.svg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;*/
+}
+
+/* Set min size of each segment */
+.segment {
+    min-width: 100%;
+}
+
+/* Utility classes */
+.bg-less {
+    background-color: transparent !important;
+}
+
+.border-less {
+    border: 0;
+}
+
+.bg-blue {
+    background-color: rgba(74,82,183,1.0);
+}
+
+.bg-gray {
+    background-color: rgba(237,237,237,1.0);
+}
+
+
+.spacer {
+    opacity: 0.0;
+}

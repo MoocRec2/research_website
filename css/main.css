@@ -7,6 +7,10 @@ body {
     font-family: 'Lobster', cursive;
 }
 
+.text-dark {
+    color: #495057;
+}
+
 /* Set div backgrounds for each segment */
 #home {
     /*background: url("../img/home-bg.svg") no-repeat;

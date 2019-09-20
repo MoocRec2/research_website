@@ -3,7 +3,7 @@ var thesisListShown = false;
 $('#collapse-srs-list').hide();
 
 // Highlight a card when hovered over.
-$('.card').hover(
+$('.custom-card').hover(
     function () {
         $(this).removeClass('bg-less border-less').addClass('bg-light text-dark');
 

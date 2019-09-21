@@ -13,9 +13,11 @@ body {
 
 /* Set div backgrounds for each segment */
 #home {
-    /*background: url("../img/home-bg.svg") no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;*/
+    /*background: url("../img/home-bg.svg") no-repeat;*/
+    /* -webkit-background-size: cover; */
+    background-size: cover;
+    background-image: url('../img/cover.jpg') !important;
+  
 }
 
 /* Set min size of each segment */

@@ -67,7 +67,8 @@
     <!-- Content: start -->
     <!-- Home: start -->
     <div id="home" class="segment">
-        <div class="text-white d-flex justify-content-center p-5"ss>
+        <div class="bg-blue text-white d-flex justify-content-center p-5"
+            style="background-image: url('img/cover.svg') !important; background-size: cover;">
             <div class="col-md-8">
                 <br><br><br><!-- To keep some distance between content and navbar -->
                 <h1 class="display-4">What is MoocRec v2?</h1>
@@ -271,7 +272,10 @@
                     <div class="card-body">
 
                         <div class="collapse-content">
-                            <p class="card-text collapse" id="collapseContent4">MOOCRec V2 solution is a research-based
+                            <p class="card-text">
+
+                                <strong>Main Objectives</strong><br />
+                                MOOCRec V2 solution is a research-based
                                 implementation of a MOOC recommender that builds up upon
                                 MOOCRec V1 but extends
                                 its capabilities while streamlining the user experience, introducing new features that
@@ -312,9 +316,62 @@
                                         made for each user.
                                     </li>
                                 </ul>
+                                <strong>Specific Objectives</strong><br />
+                                To achieve aforementioned general objectives, we have identified a range of specific
+                                objectives that have to be achieved in order to bring our proposed solution, which is
+                                MOOCRec V1 to fruition.
+                                <ul>
+                                    <li>
+                                        Classify and index MOOCs that are delivered in video styles that are not covered
+                                        by MOOCRec V1 such as
+
+                                        Animations
+
+                                        MOOCs with multiple video styles
+                                    </li>
+                                    <li>
+                                        Decrease or eliminate false-positives that occur with certain styles of videos
+                                        such as
+
+                                        False-positives involved with an image of a person being mistaken as a
+                                        talking-head video.
+
+                                        False-positives involved with predicting that a video has code in it for text
+                                        that is not code.
+                                    </li>
+                                    <li>
+                                        Meta-data in forums within the MOOC platforms and from external discussion
+                                        forums like Reddit will be analyzed to give a ‘forum score’ which can be used to
+                                        recommend MOOCs especially to users who learn through peer-to-peer interactions.
+                                    </li>
+                                    <li>
+                                        Users’ sentiments in forums within the platforms and from rating systems by
+                                        services like Class Central where users have discussed about the course will be
+                                        used to calculate a ‘course score’ which can be used when recommending MOOCs in
+                                        addition to the other factors which are taken into account (learning styles,
+                                        video type, etc.) to all users in general.
+                                    </li>
+                                    <li>
+                                        Implement a facial expression analyzer to capture the engagement of a user.
+                                    </li>
+                                    <li>
+                                        Create an engaging, introductory video that contains multiple MOOC learning
+                                        material types throughout its runtime to be used to capture user’s engagement
+                                        during each learning material type by using the aforementioned facial expression
+                                        analyzer.
+                                    </li>
+                                    <li>
+                                        Devise an architecture to classify videos parallelly in distributed computing
+                                        environments to speed up the classification process and implement it.
+                                    </li>
+                                    <li>
+                                        Provide basic user-profile related features and a dashboard to that each user
+                                        can view their personalized recommendations.
+                                    </li>
+                                </ul>
                             </p>
-                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseContent4"
-                                aria-expanded="false" aria-controls="collapseContent">Read More</a>
+                            <!-- <a class="btn btn-primary" data-toggle="collapse" href="#collapseContent4"
+                                aria-expanded="false" aria-controls="collapseContent">Read More</a> -->
                         </div>
                     </div>
                 </div><br>

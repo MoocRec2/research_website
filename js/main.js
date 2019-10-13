@@ -20,7 +20,7 @@ $('.download-icon').hover(
     function () {
         $(this).addClass('far').removeClass('fas');
     }
-)
+);
 
 // Highlight clicked navbar item.
 $('.nav-item').click(function () {
